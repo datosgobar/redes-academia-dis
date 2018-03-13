@@ -46,7 +46,7 @@
 
         children: [
           {
-            name: 'Virtual Autogestivo',
+            name: 'Virtual Autogestivo (8)',
             // level: color de las lineas
             level: groupOneColor,
             // type: color de los puntos
@@ -55,7 +55,7 @@
             color: colorA,
             children: [
               {
-                name: 'Habilidades Exponenciales',
+                name: 'Habilidades Exponenciales ',
                 // level: color de las lineas
                 level: groupOneColor,
                 // type: color de los puntos
@@ -123,7 +123,7 @@
             ],
           },
           {
-            name: 'Ciclo Taller',
+            name: 'Ciclo Taller (14)',
             level: groupTwoColor,
             type: groupTwoColor,
             menu: true,
@@ -258,7 +258,7 @@
             ],
           },
           {
-            name: 'Virtual Tutorado',
+            name: 'Virtual Tutorado (4)',
             level: groupThreeColor,
             type: groupThreeColor,
             color: colorC,
@@ -299,7 +299,7 @@
             ],
           },
           {
-            name: 'Charla Inspira',
+            name: 'Charla Inspira (95)',
             level: groupFourColor,
             type: groupFourColor,
             menu: true,
@@ -1000,7 +1000,7 @@
             ],
           },
           {
-            name: 'Entrenamientos a Escala',
+            name: 'Entrenamientos a Escala (4)',
             level: groupFiveColor,
             type: groupFiveColor,
             menu: true,
@@ -1041,7 +1041,7 @@
             ],
           },
           {
-            name: 'Curso Largo',
+            name: 'Curso Largo (33)',
             level: groupSixColor,
             type: groupSixColor,
             menu: true,
@@ -1294,7 +1294,7 @@
             ],
           },
           {
-            name: 'Programa Ejecutivo',
+            name: 'Programa Ejecutivo (4)',
             level: groupSevenColor,
             type: groupSevenColor,
             menu: true,
@@ -1352,7 +1352,7 @@
             ],
           },
           {
-            name: 'Curso Corto',
+            name: 'Curso Corto (45)',
             level: groupEightColor,
             type: groupEightColor,
             menu: true,
@@ -1791,7 +1791,7 @@
         .attr('id', 'button-one')
         .attr('class', 'button expand')
         .attr('type', 'button')
-        .text('Ver todo')
+        .text('Ver todo (207)')
         .on('click', function(d) {
           var buttonClicked = this.getAttribute('id')
 
@@ -1809,6 +1809,7 @@
             .selectAll('path')
             .transition()
             .style('opacity', 1)
+
           d3
             .selectAll('text')
             .transition()

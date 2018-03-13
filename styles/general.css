@@ -5,7 +5,7 @@ html {
 }
 
 #vis {
-  margin-left: 260px;
+  margin-left: 240px;
 }
 
 body {
@@ -36,7 +36,7 @@ button:focus {
 .header {
   position: absolute;
   width: 100%;
-  height: 80px;
+  height: 72px;
   background-color: white;
   z-index: 3;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
@@ -46,14 +46,17 @@ button:focus {
 }
 
 .logo-header {
-  width: 260px;
+  height: 32px;
+  margin-left: 15px;
+  position: absolute;
+  left: 0;
 }
 
 .banner {
   position: absolute;
   width: 100%;
-  top: 80px;
-  height: 180px;
+  top: 71px;
+  height: 130px;
   background-color: rgb(102, 180, 226);
   z-index: 2;
   display: flex;
@@ -67,12 +70,11 @@ button:focus {
 
 .buttonContainer {
   position: absolute;
-  top: 20px;
+  top: -90px;
   width: 240px;
   height: 100vh;
   padding-top: 312px;
   background-color: rgba(250, 250, 250, 1);
-  left: 20px;
   z-index: 1;
 }
 
@@ -100,6 +102,7 @@ select {
   background-color: rgb(228, 228, 228);
   color: rgb(86, 137, 204);
   border: none;
+  font-weight: 600;
 }
 
 .button:hover {
@@ -204,11 +207,11 @@ select {
   text-align: center;
 }
 .scroll-btn > * {
-  line-height: 18px;
+  line-height: 1px;
   font-size: 13px;
   font-weight: normal;
   color: rgb(102, 180, 226);
-  font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', monospace;
   letter-spacing: 2px;
 }
 .scroll-btn > * .mouse {
