@@ -46,7 +46,7 @@
 
         children: [
           {
-            name: 'Virtual Autogestivo (8)',
+            name: 'Virtual autogestivo (8)',
             // level: color de las lineas
             level: groupOneColor,
             // type: color de los puntos
@@ -123,7 +123,7 @@
             ],
           },
           {
-            name: 'Ciclo Taller (14)',
+            name: 'Ciclo taller (14)',
             level: groupTwoColor,
             type: groupTwoColor,
             menu: true,
@@ -258,7 +258,7 @@
             ],
           },
           {
-            name: 'Virtual Tutorado (4)',
+            name: 'Virtual tutorado (4)',
             level: groupThreeColor,
             type: groupThreeColor,
             color: colorC,
@@ -299,7 +299,7 @@
             ],
           },
           {
-            name: 'Charla Inspira (95)',
+            name: 'Charla inspira (95)',
             level: groupFourColor,
             type: groupFourColor,
             menu: true,
@@ -1000,7 +1000,7 @@
             ],
           },
           {
-            name: 'Entrenamientos a Escala (4)',
+            name: 'Entrenamientos a escala (4)',
             level: groupFiveColor,
             type: groupFiveColor,
             menu: true,
@@ -1041,7 +1041,7 @@
             ],
           },
           {
-            name: 'Curso Largo (33)',
+            name: 'Curso largo (33)',
             level: groupSixColor,
             type: groupSixColor,
             menu: true,
@@ -1294,7 +1294,7 @@
             ],
           },
           {
-            name: 'Programa Ejecutivo (4)',
+            name: 'Programa ejecutivo (4)',
             level: groupSevenColor,
             type: groupSevenColor,
             menu: true,
@@ -1352,7 +1352,7 @@
             ],
           },
           {
-            name: 'Curso Corto (45)',
+            name: 'Curso corto (45)',
             level: groupEightColor,
             type: groupEightColor,
             menu: true,
